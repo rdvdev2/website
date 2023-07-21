@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-600 p-4 rounded-2xl flex gap-4 flex-wrap justify-center items-center w-fit">
+  <div class="bg-gray-600 p-4 rounded-2xl flex gap-4 flex-wrap justify-center items-center w-fit shadow-2xl">
     <img class="rounded-xl max-w-sm my-auto mx-0" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Placeholder image of a computer">
     <p class="text-justify max-w-prose">
       My interest in coding started when I was 10 years old, and I needed to learn <b>Lua</b> to play with the Minecraft
