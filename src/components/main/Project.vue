@@ -15,8 +15,8 @@ function openLink() {
 
 <template>
   <div @click="openLink" class="bg-black overflow-hidden aspect-square max-w-xs rounded-3xl border-purple-500 border-2 transition-all hover:scale-105 cursor-pointer">
-    <div id="inner" class="flex flex-col justify-center items-center p-4 w-full h-full transition-all opacity-70 hover:opacity-100">
-      <h1 class="text-xl font-bold"><slot name="name"></slot></h1>
+    <div id="inner" class="grid grid-cols-1 grid-rows-2 items-center p-4 w-full h-full transition-all opacity-70 hover:opacity-100">
+      <h1 class="text-xl font-bold text-center"><slot name="name"></slot></h1>
       <slot></slot>
     </div>
   </div>
