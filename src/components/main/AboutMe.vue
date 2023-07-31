@@ -4,8 +4,8 @@ import Card from "./Card.vue";
 
 <template>
   <Card class="flex-wrap">
-    <img class="rounded-xl max-w-sm my-auto mx-0" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Placeholder image of a computer">
-    <p class="text-justify max-w-prose">
+    <img class="rounded-xl max-w-sm" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Placeholder image of a computer">
+    <p class="text-justify basis-3/5 flex-grow">
       My interest in coding started when I was 10 years old, and I needed to learn <b>Lua</b> to play with the Minecraft
       Mod ComputerCraft. Since then, my curiosity has led me to explore and learn everything about programming that I
       can find and understand on the Internet. Although I have explored technologies such as <b>C++</b>, <b>OpenGL</b>,

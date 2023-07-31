@@ -11,3 +11,9 @@ import Projects from "./Projects.vue";
     <Projects />
   </main>
 </template>
+
+<style scoped>
+main * {
+  @apply max-w-screen-xl;
+}
+</style>
