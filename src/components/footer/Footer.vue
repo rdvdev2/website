@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import Social from "./Social.vue";
 
-import githubLogo from '/public/socials/github.svg'
-import modrinthLogo from '/public/socials/modrinth.svg'
-import curseforgeLogo from '/public/socials/curseforge.svg'
-import kofiLogo from '/public/socials/kofi.svg'
+import githubLogo from '/socials/github.svg'
+import modrinthLogo from '/socials/modrinth.svg'
+import curseforgeLogo from '/socials/curseforge.svg'
+import kofiLogo from '/socials/kofi.svg'
 </script>
 
 <template>
