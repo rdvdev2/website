@@ -1,15 +1,12 @@
 <script setup lang="ts">
-import {computed} from "vue";
 
-const props = defineProps({
-  'bgUrl': String,
-  'href': String,
-})
-
-const background = computed(() => `url('${props.bgUrl}')`)
+const props = defineProps<{
+  'background': URL | String,
+  'href': URL | String,
+}>();
 
 function openLink() {
-  open(props.href, "_self");
+  open(props.href.toString(), "_self");
 }
 </script>
 
@@ -24,7 +21,7 @@ function openLink() {
 
 <style scoped>
 #inner {
-  --background: rgba(0, 0, 0, 0.6);
-  background: linear-gradient(var(--background), var(--background)), v-bind('background') center / cover;
+  --background-overlay: rgba(0, 0, 0, 0.6);
+  background: linear-gradient(var(--background-overlay), var(--background-overlay)), v-bind("`url('${props.background}')`") center / cover;
 }
 </style>
