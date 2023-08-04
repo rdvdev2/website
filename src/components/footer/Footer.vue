@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import SocialImageLink from "./SocialImageLink.vue";
-import {Social} from "../../types/Social.ts";
-import SocialsRaw from "/assets/data/socials.json?raw";
+import SocialImageLink from "@/components/footer/SocialImageLink.vue";
+import {Social} from "@/types/Social.ts";
+import SocialsRaw from "@assets/data/socials.json?raw";
 
 const socials = Social.parseJSONArray(SocialsRaw);
 </script>

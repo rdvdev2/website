@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import profileUrl from "/assets/images/profile.png"
+import profileUrl from "@assets/images/profile.png"
 </script>
 
 <template>

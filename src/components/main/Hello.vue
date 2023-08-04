@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import Card from "./Card.vue";
+import Card from "@/components/main/Card.vue";
 
-import irlUrl from "/assets/images/irl.jpg"
+import irlUrl from "@assets/images/irl.jpg"
 </script>
 
 <template>

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import Card from "./Card.vue";
-import Project from "./Project.vue";
+import Card from "@/components/main/Card.vue";
+import Project from "@/components/main/Project.vue";
 </script>
 
 <template>

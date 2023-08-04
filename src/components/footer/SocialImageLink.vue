@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {Social} from "../../types/Social.ts";
+import {Social} from "@/types/Social.ts";
 
 const props = defineProps<{
   social: Social,

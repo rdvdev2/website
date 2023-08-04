@@ -1,8 +1,15 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import { resolve } from 'path';
 
-// https://vitejs.dev/config/
+/** @type {import('vite').UserConfig;} */
 export default defineConfig({
   plugins: [vue()],
-  base: '/website/'
+  base: '/website/',
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, "./src"),
+      '@assets': resolve(__dirname, "./assets")
+    }
+  }
 })

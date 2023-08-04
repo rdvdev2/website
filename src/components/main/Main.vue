@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import Hello from "./Hello.vue";
-import AboutMe from "./AboutMe.vue";
-import Projects from "./Projects.vue";
+import Hello from "@/components/main/Hello.vue";
+import AboutMe from "@/components/main/AboutMe.vue";
+import Projects from "@/components/main/Projects.vue";
 </script>
 
 <template>
