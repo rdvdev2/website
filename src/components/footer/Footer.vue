@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import SocialImageLink from "@/components/footer/SocialImageLink.vue";
 import {Social} from "@/types/Social.ts";
-import SocialsRaw from "@assets/data/socials.json?raw";
+import SocialsRaw from "@assets/data/socials.json";
 
-const socials = Social.parseJSONArray(SocialsRaw);
+const socials = SocialsRaw.map(Social.fromRawObject)
 </script>
 
 <template>

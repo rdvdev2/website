@@ -11,5 +11,8 @@ export default defineConfig({
       '@': resolve(__dirname, "./src"),
       '@assets': resolve(__dirname, "./assets")
     }
+  },
+  json: {
+    stringify: true
   }
 })

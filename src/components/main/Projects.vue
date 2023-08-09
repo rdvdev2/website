@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import Card from "@/components/main/Card.vue";
 import ProjectCard from "@/components/main/ProjectCard.vue";
-import ProjectsRaw from "@assets/data/projects.json?raw"
+import ProjectsRaw from "@assets/data/projects.json"
 import {Project} from "@/types/Project.ts";
 
-const projects = Project.parseJSONArray(ProjectsRaw);
+const projects = ProjectsRaw.map(Project.fromRawObject);
 </script>
 
 <template>
