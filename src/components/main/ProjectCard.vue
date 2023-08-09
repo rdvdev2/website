@@ -1,10 +1,13 @@
 <script setup lang="ts">
 
 import {Project} from "@/types/Project.ts";
+import {computed} from "vue";
 
-defineProps<{
+const props = defineProps<{
   'project': Project,
 }>();
+
+const backgroundUrl = computed(() => `url(${props.project.card_background_image})`);
 
 </script>
 
@@ -22,6 +25,6 @@ defineProps<{
 <style scoped>
 #inner {
   --background-overlay: rgba(0, 0, 0, 0.6);
-  background: linear-gradient(var(--background-overlay), var(--background-overlay)), v-bind("`url('${project.card_background_image}')`") center / cover;
+  background: linear-gradient(var(--background-overlay), var(--background-overlay)), v-bind(backgroundUrl) center / cover;
 }
 </style>
